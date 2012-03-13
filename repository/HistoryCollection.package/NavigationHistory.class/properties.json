@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"category" : "HistoryCollection",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"storage",
+		"index",
+		"maxSize"
+	],
+	"name" : "NavigationHistory",
+	"type" : "normal"
+}
