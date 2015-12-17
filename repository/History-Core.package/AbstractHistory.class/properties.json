@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "EstebanMaringolo 12/16/2015 23:43",
+	"super" : "Object",
+	"category" : "History-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"DefaultMagnitudeSelector"
+	],
+	"instvars" : [
+		"lookupPolicy",
+		"magnitudeSelector"
+	],
+	"name" : "AbstractHistory",
+	"type" : "normal"
+}

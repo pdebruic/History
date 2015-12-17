@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "EstebanMaringolo 12/16/2015 23:48",
+	"super" : "AbstractHistory",
+	"category" : "History-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"DefaultOwnerSelector"
+	],
+	"instvars" : [
+		"owners",
+		"ownerSelector",
+		"registry"
+	],
+	"name" : "HistoryGroup",
+	"type" : "normal"
+}

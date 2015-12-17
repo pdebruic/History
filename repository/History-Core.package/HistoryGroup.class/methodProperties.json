@@ -1,0 +1,33 @@
+{
+	"instance" : {
+		"histories" : "EstebanMaringolo 12/14/2015 12:00",
+		"allFrom:to:" : "EstebanMaringolo 12/14/2015 12:00",
+		"setHistories:" : "EstebanMaringolo 12/16/2015 18:14",
+		"registerNewHistoryFor:" : "EstebanMaringolo 12/14/2015 12:00",
+		"initializeHistoriesUsing:" : "EstebanMaringolo 12/16/2015 23:46",
+		"allElements" : "EstebanMaringolo 12/14/2015 12:00",
+		"ownerSelector" : "EstebanMaringolo 12/14/2015 12:00",
+		"at:of:ifAbsent:" : "EstebanMaringolo 12/16/2015 17:43",
+		"owners:" : "EstebanMaringolo 12/14/2015 12:00",
+		"historyOf:" : "EstebanMaringolo 12/14/2015 12:00",
+		"registry" : "EstebanMaringolo 12/14/2015 12:00",
+		"allAt:select:" : "EstebanMaringolo 12/16/2015 17:43",
+		"owners" : "EstebanMaringolo 12/14/2015 12:00",
+		"newHistoryFor:" : "EstebanMaringolo 12/16/2015 23:37",
+		"at:of:" : "EstebanMaringolo 12/14/2015 12:00",
+		"allAt:" : "EstebanMaringolo 12/14/2015 12:00",
+		"registry:" : "EstebanMaringolo 12/14/2015 12:00",
+		"setElements:" : "EstebanMaringolo 12/16/2015 23:47",
+		"lookupPolicy:" : "EstebanMaringolo 12/16/2015 17:36",
+		"basicInitializeRegistry" : "EstebanMaringolo 12/16/2015 17:33",
+		"ownerSelector:" : "EstebanMaringolo 12/14/2015 12:00",
+		"initializeRegistry" : "EstebanMaringolo 12/16/2015 17:33"
+	},
+	"class" : {
+		"withAll:" : "EstebanMaringolo 12/16/2015 18:12",
+		"defaultOwnerSelector:" : "EstebanMaringolo 12/16/2015 17:33",
+		"defaultOwnerSelector" : "EstebanMaringolo 12/16/2015 17:41",
+		"belongingToAll:selector:elements:" : "EstebanMaringolo 12/16/2015 17:49",
+		"belongingToAll:elements:" : "EstebanMaringolo 12/16/2015 17:40"
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"instance" : {
+		"errorNotFound" : "EstebanMaringolo 12/16/2015 16:05",
+		"useApplicabilityLookup" : "EstebanMaringolo 12/15/2015 17:44",
+		"defaultMagnitudeSelector" : "EstebanMaringolo 12/14/2015 15:46",
+		"initialize" : "EstebanMaringolo 12/16/2015 16:06",
+		"lookupPolicy" : "EstebanMaringolo 12/14/2015 12:00",
+		"lookupPolicy:" : "EstebanMaringolo 12/15/2015 17:43",
+		"useMatchLookup" : "EstebanMaringolo 12/15/2015 17:44",
+		"magnitudeSelector" : "EstebanMaringolo 12/15/2015 17:32",
+		"magnitudeSelector:" : "EstebanMaringolo 12/15/2015 17:32"
+	},
+	"class" : {
+		"defaultMagnitudeSelector:" : "EstebanMaringolo 12/14/2015 15:46",
+		"new" : "EstebanMaringolo 12/14/2015 12:00",
+		"defaultMagnitudeSelector" : "EstebanMaringolo 12/14/2015 15:46",
+		"initialize" : "EstebanMaringolo 12/14/2015 15:45",
+		"applicabilityLookup" : "EstebanMaringolo 12/15/2015 17:43",
+		"matchLookup" : "EstebanMaringolo 12/15/2015 17:43"
+	}
+}
