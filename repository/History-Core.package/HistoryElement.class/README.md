@@ -1,0 +1,1 @@
+This is just a simple class for elements that can be stored into the History elements collection and behave properly.  It is also possible to use domain objects that answer to #timestamp and #value by default or whatever you choose for magnitudeSelector
