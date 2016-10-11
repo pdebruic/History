@@ -1,3 +1,5 @@
 lookup
 current
-	^ elements last value
+	self notEmpty
+		ifTrue: [ ^ self elements last value ]
+		ifFalse: [ ^ nil ]

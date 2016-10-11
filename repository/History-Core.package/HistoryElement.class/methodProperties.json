@@ -2,11 +2,13 @@
 	"instance" : {
 		"value" : "PaulDeBruicker 1/14/2016 17:48",
 		"value:" : "PaulDeBruicker 1/14/2016 17:48",
+		"printOn:" : "PaulDeBruicker 10/7/2016 11:05",
 		"initialize" : "PaulDeBruicker 1/14/2016 17:48",
 		"timestamp" : "PaulDeBruicker 1/14/2016 17:49",
 		"timestamp:" : "PaulDeBruicker 1/14/2016 17:49"
 	},
 	"class" : {
+		"dateAndTimeClass" : "PaulDeBruicker 8/12/2016 15:31",
 		"value:at:" : "PaulDeBruicker 1/14/2016 17:49",
 		"value:" : "PaulDeBruicker 1/14/2016 17:49"
 	}
