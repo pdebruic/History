@@ -1,5 +1,5 @@
 lookup
 current
 	self notEmpty
-		ifTrue: [ ^ self elements last value ]
+		ifTrue: [ ^ self latest value ]
 		ifFalse: [ ^ nil ]
