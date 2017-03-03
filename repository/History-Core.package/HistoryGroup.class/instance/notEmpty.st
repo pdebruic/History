@@ -1,3 +1,3 @@
 testing
 notEmpty
-	^self isEmpty not
+	^self registry notEmpty
