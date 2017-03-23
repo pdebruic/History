@@ -1,14 +1,13 @@
 removing
 condense
-	elements isEmptyOrNil not
-		ifTrue: [ | value newElements |
-			value := elements last value.
-			newElements := SortedCollection sortBlock: self.
-			newElements add: elements last.
-			elements allButLast reverse
-				do: [ :eachElement | 
-					(eachElement value historyCondenseCompareTo: value)
-						ifFalse: [ newElements add: eachElement.
-							value := eachElement value ] ].
-			self initializeElements.
-			self addAll: newElements ]
+  elements isEmptyOrNil not
+    ifTrue: [ 
+      | value toRemove |
+      toRemove := OrderedCollection new.
+      value := elements last value.
+      elements
+        reverseDo: [ :eachElement | 
+          (eachElement value historyCondenseCompareTo: value)
+            ifTrue: [ toRemove add: eachElement ]
+            ifFalse: [ value := eachElement value ] ].
+      elements removeAll: toRemove ]
