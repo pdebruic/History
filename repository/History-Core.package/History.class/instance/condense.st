@@ -6,7 +6,7 @@ condense
       toRemove := OrderedCollection new.
       value := elements last value.
       elements
-        reverseDo: [ :eachElement | 
+        allButLastReverseDo: [ :eachElement | 
           (eachElement value historyCondenseCompareTo: value)
             ifTrue: [ toRemove add: eachElement ]
             ifFalse: [ value := eachElement value ] ].
