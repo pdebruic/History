@@ -1,5 +1,6 @@
 {
 	"instance" : {
+		"innerCollectionOrElementsFrom:" : "PaulDeBruicker 04/19/2017 17:54",
 		"printOn:" : "PaulDeBruicker 10/23/2016 12:59",
 		"lookupMatchAt:" : "EstebanMaringolo 12/16/2015 17:03",
 		"initial" : "PaulDeBruicker 1/14/2016 18:15",
@@ -34,6 +35,7 @@
 		"valuesAt:" : "PaulDeBruicker 8/12/2016 15:25",
 		"removeAllSuchThat:" : "PaulDeBruicker 10/17/2016 06:53",
 		"setElements:" : "EstebanMaringolo 12/16/2015 23:47",
+		"collectElementsIntoCollections" : "PaulDeBruicker 04/19/2017 17:49",
 		"lookupElementsFrom:to:" : "PaulDeBruicker 8/31/2016 13:41",
 		"lookupApplicableAt:" : "EstebanMaringolo 12/16/2015 17:06",
 		"detect:ifNone:" : "EstebanMaringolo 12/16/2015 16:56"
