@@ -1,8 +1,9 @@
 {
 	"instance" : {
 		"innerCollectionOrElementsFrom:" : "PaulDeBruicker 04/19/2017 17:54",
+		"sequentialLookupMatchAt:" : "PaulDeBruicker 05/19/2017 16:20",
 		"printOn:" : "PaulDeBruicker 10/23/2016 12:59",
-		"lookupMatchAt:" : "EstebanMaringolo 12/16/2015 17:03",
+		"lookupMatchAt:" : "PaulDeBruicker 05/19/2017 16:20",
 		"initial" : "PaulDeBruicker 1/14/2016 18:15",
 		"do:" : "PaulDeBruicker 9/1/2016 10:09",
 		"value:value:" : "EstebanMaringolo 12/16/2015 17:02",
@@ -27,17 +28,20 @@
 		"notEmpty" : "PaulDeBruicker 10/4/2016 18:08",
 		"from:to:" : "EstebanMaringolo 12/16/2015 16:56",
 		"record:at:" : "PaulDeBruicker 8/12/2016 15:30",
+		"sequentialLookupApplicableAt:" : "PaulDeBruicker 05/19/2017 16:20",
 		"addAll:" : "EstebanMaringolo 12/14/2015 12:00",
 		"isEmpty" : "PaulDeBruicker 10/5/2016 13:24",
 		"current" : "PaulDeBruicker 10/19/2016 21:22",
 		"select:" : "PaulDeBruicker 10/23/2016 12:39",
 		"lookupElementAt:" : "EstebanMaringolo 12/16/2015 17:03",
+		"binaryLookupMatchAt:" : "PaulDeBruicker 05/19/2017 16:19",
 		"valuesAt:" : "PaulDeBruicker 8/12/2016 15:25",
 		"removeAllSuchThat:" : "PaulDeBruicker 10/17/2016 06:53",
 		"setElements:" : "EstebanMaringolo 12/16/2015 23:47",
+		"binaryLookupApplicableAt:" : "PaulDeBruicker 05/19/2017 16:19",
 		"collectElementsIntoCollections" : "PaulDeBruicker 04/19/2017 17:49",
 		"lookupElementsFrom:to:" : "PaulDeBruicker 8/31/2016 13:41",
-		"lookupApplicableAt:" : "EstebanMaringolo 12/16/2015 17:06",
+		"lookupApplicableAt:" : "PaulDeBruicker 05/19/2017 16:24",
 		"detect:ifNone:" : "EstebanMaringolo 12/16/2015 16:56"
 	},
 	"class" : {
