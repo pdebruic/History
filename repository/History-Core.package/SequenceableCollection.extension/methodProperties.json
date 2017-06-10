@@ -1,5 +1,6 @@
 {
 	"instance" : {
+		"findOrNearestLessIndex:do:ifNone:" : "PaulDeBruicker 5/19/2017 16:23",
 		"allButLastReverseDo:" : "PaulDeBruicker 03/25/2017 13:00"
 	},
 	"class" : { }

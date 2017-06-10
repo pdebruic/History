@@ -1,1 +1,1 @@
-SystemOrganization addCategory: 'History-Core'!
+SystemOrganization addCategory: #'History-Core'!

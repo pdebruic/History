@@ -1,0 +1,3 @@
+*History-Core
+isHistoryElement
+	^false
