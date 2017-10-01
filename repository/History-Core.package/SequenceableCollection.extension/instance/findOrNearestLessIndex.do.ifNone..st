@@ -39,8 +39,8 @@ findOrNearestLessIndex: aBlock do: actionBlock ifNone: exceptionBlock
 				ifTrue: [ ^ actionBlock value: index ]
 				ifFalse: [ test < 0
 						ifTrue: [ high := index - 1 ]
-						ifFalse: [ target:=index. low := index + 1.
-							 ] ] ].
-	(target notNil and: [ target between: 0 and: self size ])
+						ifFalse: [ target := index.
+							low := index + 1 ] ] ].
+	(target notNil and: [ target between: 1 and: self size ])
 		ifTrue: [ ^ actionBlock value: target ].
 	^ exceptionBlock cull: high cull: low

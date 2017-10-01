@@ -4,9 +4,9 @@ condense
     ifTrue: [ 
       | value toRemove |
       toRemove := OrderedCollection new.
-      value := elements last value.
+      value := elements first value.
       elements
-        allButLastReverseDo: [ :eachElement | 
+        allButFirstDo: [ :eachElement | 
           (eachElement value historyCondenseCompareTo: value)
             ifTrue: [ toRemove add: eachElement ]
             ifFalse: [ value := eachElement value ] ].

@@ -1,7 +1,14 @@
 lookup
 sequentialLookupApplicableAt: aDate
-  "Private - Lookups the element of receiver which is valid at aDate in the receiver cache."
+	"Private - Lookups the element of receiver which is valid at aDate in the receiver cache."
 
-  ^ self elements
+	| last |
+	last := nil.
+	self elements
+		do: [ :ea | 
+			(ea perform: self magnitudeSelector) <= aDate
+				ifTrue: [ last := ea ]
+				ifFalse: [ ^ last ] ]	"
+ ^ self elements
     detect: [ :one | (one perform: self magnitudeSelector) <= aDate ]
-    ifNone: [ nil ]
+    ifNone: [ nil ]"

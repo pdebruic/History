@@ -4,4 +4,4 @@ value: a value: b
 	Implemented to use receiver as sort block for it's elements sorted collection."
 
 	| dateS |
-	^ (b perform: (dateS := self magnitudeSelector)) < (a perform: dateS)
+	^ (b perform: (dateS := self magnitudeSelector)) > (a perform: dateS)
