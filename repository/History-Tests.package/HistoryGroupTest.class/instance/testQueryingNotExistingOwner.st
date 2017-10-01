@@ -7,4 +7,6 @@ testQueryingNotExistingOwner
 		magnitudeSelector: #magnitude;
 		setElements: self sampleElements) yourself.
 	group useApplicabilityLookup.
-	self assert: (group at: '2015-01-15' asDate of: $C) equals: nil
+	self
+		assert: (group at: (Date year: 2015 month: 1 day: 15) of: $C)
+		equals: nil

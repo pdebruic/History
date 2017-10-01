@@ -4,11 +4,13 @@ testMatchLookup
 	h := History
 		of: $A
 		withAll:
-			{(HistoryTestElement at: '2015-01-01' asDate tag: $A).
-			(HistoryTestElement at: '2015-03-01' asDate tag: $A).
-			(HistoryTestElement at: '2015-06-01' asDate tag: $A).
-			(HistoryTestElement at: '2015-09-01' asDate tag: $A)}
+			{(HistoryTestElement at: (Date year: 2015 month: 1 day: 1) tag: $A).
+			(HistoryTestElement at: (Date year: 2015 month: 3 day: 1) tag: $A).
+			(HistoryTestElement at: (Date year: 2015 month: 6 day: 1) tag: $A).
+			(HistoryTestElement at: (Date year: 2015 month: 9 day: 1) tag: $A)}
 		selector: #magnitude.
 	h lookupPolicy: History matchLookup.
-	self should: [ h at: '2015-01-15' asDate ] raise: NotFound.
-	self assert: (h at: '2015-03-01' asDate) notNil
+	self
+		should: [ h at: (Date year: 2015 month: 1 day: 15) ]
+		raise: NotFound.
+	self assert: (h at: (Date year: 2015 month: 3 day: 1)) notNil

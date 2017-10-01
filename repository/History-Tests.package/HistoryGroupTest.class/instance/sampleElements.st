@@ -1,11 +1,11 @@
 sample data
 sampleElements
-	^ {(HistoryTestElement at: '2015-01-01' asDate tag: $A).
-	(HistoryTestElement at: '2015-03-01' asDate tag: $A).
-	(HistoryTestElement at: '2015-05-01' asDate tag: $A).
-	(HistoryTestElement at: '2015-07-01' asDate tag: $A)}
+	^ {(HistoryTestElement at: (Date year: 2015 month: 1 day: 1) tag: $A).
+	(HistoryTestElement at: (Date year: 2015 month: 3 day: 1) tag: $A).
+	(HistoryTestElement at: (Date year: 2015 month: 5 day: 1) tag: $A).
+	(HistoryTestElement at: (Date year: 2015 month: 7 day: 1) tag: $A)}
 		,
-			{(HistoryTestElement at: '2015-02-01' asDate tag: $B).
-			(HistoryTestElement at: '2015-04-01' asDate tag: $B).
-			(HistoryTestElement at: '2015-06-01' asDate tag: $B).
-			(HistoryTestElement at: '2015-08-01' asDate tag: $B)}
+			{(HistoryTestElement at: (Date year: 2015 month: 2 day: 1) tag: $B).
+			(HistoryTestElement at: (Date year: 2015 month: 4 day: 1) tag: $B).
+			(HistoryTestElement at: (Date year: 2015 month: 6 day: 1) tag: $B).
+			(HistoryTestElement at: (Date year: 2015 month: 8 day: 1) tag: $B)}
