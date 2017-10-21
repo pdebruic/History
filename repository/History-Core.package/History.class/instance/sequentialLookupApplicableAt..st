@@ -8,7 +8,5 @@ sequentialLookupApplicableAt: aDate
 		do: [ :ea | 
 			(ea perform: self magnitudeSelector) <= aDate
 				ifTrue: [ last := ea ]
-				ifFalse: [ ^ last ] ]	"
- ^ self elements
-    detect: [ :one | (one perform: self magnitudeSelector) <= aDate ]
-    ifNone: [ nil ]"
+				ifFalse: [ ^ last ] ].
+	^ last
