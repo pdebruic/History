@@ -1,9 +1,10 @@
 {
 	"instance" : {
 		"testBinaryMatchLookup" : "PaulDeBruicker 10/1/2017 09:22",
-		"testBinaryApplicabilityLookup" : "PaulDeBruicker 10/01/2017 06:26",
-		"testApplicabilityLookup" : "PaulDeBruicker 10/01/2017 06:26",
-		"testMatchLookup" : "PaulDeBruicker 10/1/2017 09:22"
+		"testSequentialApplicabilityLookup" : "PaulDeBruicker 10/21/2017 13:30",
+		"testMatchLookup" : "PaulDeBruicker 10/1/2017 09:22",
+		"testBinaryApplicabilityLookup" : "PaulDeBruicker 10/21/2017 13:27",
+		"testApplicabilityLookup" : "PaulDeBruicker 10/1/2017 09:22"
 	},
 	"class" : { }
 }
