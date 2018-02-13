@@ -1,6 +1,7 @@
 {
 	"instance" : {
 		"innerCollectionOrElementsFrom:" : "PaulDeBruicker 04/19/2017 17:54",
+		"select:thenDo:" : "PaulDeBruicker 2/13/2018 14:44",
 		"sequentialLookupMatchAt:" : "PaulDeBruicker 05/19/2017 16:20",
 		"printOn:" : "PaulDeBruicker 10/23/2016 12:59",
 		"lookupMatchAt:" : "PaulDeBruicker 05/19/2017 16:20",
@@ -14,6 +15,7 @@
 		"record:" : "PaulDeBruicker 1/14/2016 17:56",
 		"owner" : "EstebanMaringolo 12/14/2015 12:00",
 		"size" : "EstebanMaringolo 12/14/2015 12:00",
+		"select:thenCollect:" : "PaulDeBruicker 2/13/2018 14:44",
 		"initializeElements" : "EstebanMaringolo 12/16/2015 23:47",
 		"elements" : "EstebanMaringolo 12/14/2015 12:00",
 		"removeAll" : "PaulDeBruicker 10/7/2016 16:49",
@@ -36,7 +38,7 @@
 		"select:" : "PaulDeBruicker 10/23/2016 12:39",
 		"lookupElementAt:" : "EstebanMaringolo 12/16/2015 17:03",
 		"oldest" : "PaulDeBruicker 9/30/2017 22:28",
-		"binaryLookupMatchAt:" : "PaulDeBruicker 9/30/2017 21:46",
+		"binaryLookupMatchAt:" : "PaulDeBruicker 2/13/2018 12:54",
 		"binarySearchForValueOrLessFrom:to:for:" : "PaulDeBruicker 10/21/2017 16:55",
 		"valuesAt:" : "PaulDeBruicker 8/12/2016 15:25",
 		"removeAllSuchThat:" : "PaulDeBruicker 10/17/2016 06:53",
@@ -49,11 +51,10 @@
 		"mostRecent" : "PaulDeBruicker 9/30/2017 22:28"
 	},
 	"class" : {
-		"simpleLookupPerformanceTest:" : "PaulDeBruicker 9/30/2017 21:17",
-		"of:selector:" : "EstebanMaringolo 12/16/2015 23:37",
 		"withAll:" : "EstebanMaringolo 12/16/2015 23:37",
+		"of:selector:" : "EstebanMaringolo 12/16/2015 23:37",
+		"simpleLookupPerformanceTest:" : "PaulDeBruicker 9/30/2017 21:17",
 		"of:withAll:" : "EstebanMaringolo 12/16/2015 23:37",
-		"of:withAll:selector:" : "EstebanMaringolo 12/16/2015 23:37",
-		"resortAllInstances" : "PaulDeBruicker 10/1/2017 08:21"
+		"of:withAll:selector:" : "EstebanMaringolo 12/16/2015 23:37"
 	}
 }
