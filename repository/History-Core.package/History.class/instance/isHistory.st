@@ -1,3 +1,3 @@
 testing
-isHistory
+isHistory 	
 	^true
