@@ -53,6 +53,7 @@
 		"lookupElementsFrom:to:" : "PaulDeBruicker 8/31/2016 13:41",
 		"lookupApplicableAt:" : "PaulDeBruicker 9/30/2017 21:30",
 		"detect:ifNone:" : "EstebanMaringolo 12/16/2015 16:56",
+		"needsCondensing" : "PaulDeBruicker 4/24/2019 14:14",
 		"mostRecent" : "PaulDeBruicker 9/30/2017 22:28"
 	},
 	"class" : {
