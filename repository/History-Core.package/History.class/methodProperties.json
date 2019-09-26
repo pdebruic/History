@@ -49,6 +49,7 @@
 		"binaryLookupApplicableAt:" : "PaulDeBruicker 9/30/2017 21:38",
 		"collectElementsIntoCollections" : "PaulDeBruicker 04/19/2017 17:49",
 		"removeDataExactlyAt:" : "PaulDeBruicker 6/28/2018 17:03",
+		"doWithIndex:" : "PaulDeBruicker 8/9/2019 12:49",
 		"lookupMatchAt:ifAbsent:" : "PaulDeBruicker 8/2/2018 16:23",
 		"lookupElementsFrom:to:" : "PaulDeBruicker 8/31/2016 13:41",
 		"lookupApplicableAt:" : "PaulDeBruicker 9/30/2017 21:30",
