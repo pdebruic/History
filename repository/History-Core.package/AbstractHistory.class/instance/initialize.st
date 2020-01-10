@@ -1,4 +1,5 @@
 initializing
 initialize
 	super initialize.
-	lookupPolicy := self class applicabilityLookup
+	lookupPolicy := self class applicabilityLookup.
+	magnitudeSelector := self defaultMagnitudeSelector

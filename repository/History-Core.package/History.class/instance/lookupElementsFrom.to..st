@@ -4,6 +4,7 @@ lookupElementsFrom: aDate to: anotherDate
 	
 	| current result |
 	self lookupPolicy == self class applicabilityLookup ifTrue: [current := self lookupElementAt: aDate].
-	result := self elements select: [:each | (each perform: self magnitudeSelector) between: aDate and: anotherDate].
+	
+	result := self elements select: [:each | (each perform: magnitudeSelector) between: aDate and: anotherDate].
 	current ifNotNil: [:value | result add: value ].
 	^result

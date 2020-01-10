@@ -1,5 +1,10 @@
 perf-testing
 simpleLookupPerformanceTest: aSize
+"
+self simpleLookupPerformanceTest: 22 #('1354007.396 per second' '3703402.558 per second') 
+
+#('694810.276 per second' '3118718.056 per second')
+"
 	| hist today ts |
 	today := Date today.
 	hist := History new.

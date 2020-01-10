@@ -4,7 +4,7 @@ innerCollectionOrElementsFrom: aCollection
     ifTrue: [ ^ OrderedCollection new ].
   aCollection isCollection
     ifTrue: [ 
-      aCollection first isCollection
-        ifTrue: [ ^ self innerCollectionOrElementsFrom: aCollection first ]
+      aCollection anyOne isCollection
+        ifTrue: [ ^ self innerCollectionOrElementsFrom: aCollection anyOne ]
         ifFalse: [ ^ aCollection ] ]
     ifFalse: [ ^ OrderedCollection with: aCollection ]
