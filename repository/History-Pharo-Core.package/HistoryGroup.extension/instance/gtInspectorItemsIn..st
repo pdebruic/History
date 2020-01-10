@@ -8,7 +8,7 @@ gtInspectorItemsIn: composite
 			the collection to an OrderedCollection. Subclasses can override the #display
 			block to provide a different behaviour. The previous renderer had this behaviour
 			implemented in the renderer."
-			self registry associations sorted:[:a :c | a key <= c key] ];
+			self registry associations sorted:[:a :c |( a key notNil and: [c key notNil ] )ifTrue:[a key <= c key] ifFalse:[false]]];
 		
 		
 		beMultiple;
