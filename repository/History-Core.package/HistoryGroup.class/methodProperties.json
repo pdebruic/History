@@ -15,6 +15,7 @@
 		"historyOf:" : "EstebanMaringolo 12/14/2015 12:00",
 		"notEmpty" : "PaulDeBruicker 1/1/2017 18:22",
 		"select:" : "PaulDeBruicker 10/27/2016 15:39",
+		"historyOf:ifAbsent:" : "PaulDeBruicker 4/28/2020 13:53",
 		"registry" : "EstebanMaringolo 12/14/2015 12:00",
 		"allAt:select:" : "EstebanMaringolo 12/16/2015 17:43",
 		"owners" : "EstebanMaringolo 12/14/2015 12:00",
@@ -33,7 +34,8 @@
 		"ownerSelector:" : "EstebanMaringolo 12/14/2015 12:00",
 		"storeHistory:for:" : "PaulDeBruicker 1/9/2020 10:35",
 		"initializeRegistry" : "EstebanMaringolo 12/16/2015 17:33",
-		"isEmpty" : "PaulDeBruicker 12/6/2016 05:34"
+		"isEmpty" : "PaulDeBruicker 12/6/2016 05:34",
+		"condenseAllButLatest" : "PaulDeBruicker 4/8/2020 10:29"
 	},
 	"class" : {
 		"withAll:" : "EstebanMaringolo 12/16/2015 18:12",
