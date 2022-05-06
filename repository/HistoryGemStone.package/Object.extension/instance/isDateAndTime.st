@@ -1,0 +1,3 @@
+*historyGemStone
+isDateAndTime
+  ^ false

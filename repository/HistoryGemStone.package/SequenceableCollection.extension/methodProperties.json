@@ -1,0 +1,13 @@
+{
+	"instance" : {
+		"findBinaryIndex:ifNone:" : "PaulDeBruicker 05/19/2017 16:19",
+		"allButFirstDo:" : "PaulDeBruicker 10/01/2017 07:23",
+		"findBinary:" : "PaulDeBruicker 05/19/2017 16:18",
+		"findBinaryIndex:" : "PaulDeBruicker 05/19/2017 16:19",
+		"findBinaryIndex:do:ifNone:" : "PaulDeBruicker 05/19/2017 16:19",
+		"rawAt:" : "PaulDeBruicker 01/09/2020 19:00",
+		"findBinary:ifNone:" : "PaulDeBruicker 05/19/2017 16:18",
+		"findBinary:do:ifNone:" : "PaulDeBruicker 05/19/2017 16:19"
+	},
+	"class" : { }
+}

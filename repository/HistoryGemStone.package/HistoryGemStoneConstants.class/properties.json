@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "HistoryGemStone",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"GemStoneEpoch"
+	],
+	"instvars" : [ ],
+	"name" : "HistoryGemStoneConstants",
+	"type" : "normal"
+}
