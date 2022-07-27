@@ -7,7 +7,8 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"owner",
-		"elements"
+		"elements",
+		"condenseCursor"
 	],
 	"name" : "History",
 	"type" : "normal"

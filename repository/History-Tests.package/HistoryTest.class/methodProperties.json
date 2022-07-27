@@ -4,7 +4,9 @@
 		"testSequentialApplicabilityLookup" : "PaulDeBruicker 10/21/2017 13:30",
 		"testMatchLookup" : "PaulDeBruicker 10/1/2017 09:22",
 		"testBinaryApplicabilityLookup" : "PaulDeBruicker 10/21/2017 13:27",
-		"testApplicabilityLookup" : "PaulDeBruicker 10/01/2017 06:26"
+		"testCondensingOld" : "PaulDeBruicker 7/22/2022 10:17",
+		"testApplicabilityLookup" : "PaulDeBruicker 10/01/2017 06:26",
+		"testCondensing" : "PaulDeBruicker 7/22/2022 10:17"
 	},
 	"class" : { }
 }

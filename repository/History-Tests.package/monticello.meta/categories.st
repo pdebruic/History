@@ -1,1 +1,1 @@
-SystemOrganization addCategory: 'History-Tests'!
+SystemOrganization addCategory: #'History-Tests'!

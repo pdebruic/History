@@ -1,3 +1,4 @@
 removing
 removeAll
-	self elements removeAll
+	self elements removeAll.
+	self resetCondenseCursor

@@ -1,10 +1,10 @@
 converting
 innerCollectionOrElementsFrom: aCollection
+|col |
+col:=OrderedCollection new. 
   aCollection isEmptyOrNil
-    ifTrue: [ ^ OrderedCollection new ].
-  aCollection isCollection
-    ifTrue: [ 
-      aCollection anyOne isCollection
-        ifTrue: [ ^ self innerCollectionOrElementsFrom: aCollection anyOne ]
-        ifFalse: [ ^ aCollection ] ]
-    ifFalse: [ ^ OrderedCollection with: aCollection ]
+    ifTrue: [^col ].
+aCollection do:[:value | value isCollection ifTrue:[
+		col addAll:(self innerCollectionOrElementsFrom:value)
+		] ifFalse:[col add: value]].
+  ^col
