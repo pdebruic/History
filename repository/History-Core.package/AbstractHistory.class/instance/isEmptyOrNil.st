@@ -1,3 +1,3 @@
 testing
 isEmptyOrNil
-	^self isEmpty 
+	^self isEmpty
