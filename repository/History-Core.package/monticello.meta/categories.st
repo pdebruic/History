@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'History-Core'!
+self packageOrganizer ensurePackage: #'History-Core' withTags: #()!
